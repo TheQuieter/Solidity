@@ -2,7 +2,7 @@ pragma solidity ^0.4.11;
 
 contract Arrays{
 
-    string[ ] dogs = ["Jack" , "Sparrow"];
+    string[] dogs = ["Jack" , "Sparrow"];
 
     function AddDog(string _NewDog){
         dogs.push(_NewDog);
